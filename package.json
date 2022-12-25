@@ -1,6 +1,6 @@
 {
   "name": "wikipedia-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postversion": "git push -u origin main && git push -u origin main --tags"
   },
   "eslintConfig": {
     "extends": [
