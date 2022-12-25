@@ -3036,6 +3036,11 @@ chokidar@^3.4.2, chokidar@^3.5.3:
   optionalDependencies:
     fsevents "~2.3.2"
 
+chroma-js@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/chroma-js/-/chroma-js-2.4.2.tgz#dffc214ed0c11fa8eefca2c36651d8e57cbfb2b0"
+  integrity sha512-U9eDw6+wt7V8z5NncY2jJfZa+hUH8XEj8FQHgFJTrUFnJfXYf4Ml4adI2vXZOjqRDpFWtYVWypDfZwnJ+HIR4A==
+
 chrome-trace-event@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
@@ -8308,6 +8313,13 @@ symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
+
+tailwindcss-palette-generator@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/tailwindcss-palette-generator/-/tailwindcss-palette-generator-0.2.5.tgz#052aa5f3786ce998ed43dc223ec1668916a9559a"
+  integrity sha512-35eMAZEYvhjhXI94SFg/PiviMEk3naNy36lowOfvU1aTbl/MB1pMiF7YEngdG5T6987Um2Bv9CRFF5bK5apLFg==
+  dependencies:
+    chroma-js "^2.4.2"
 
 tailwindcss@^3.0.2, tailwindcss@^3.2.4:
   version "3.2.4"
